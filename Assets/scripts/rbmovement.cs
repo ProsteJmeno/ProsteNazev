@@ -16,7 +16,7 @@ public class rbmovement : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // Update is called once per frame jkjklj
     void Update()
     {
         movement = new Vector2(Input.GetAxis("Horizontal"), -2);
