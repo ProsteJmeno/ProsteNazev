@@ -19,13 +19,13 @@ public class rbmovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement = new Vector2(Input.GetAxis("Horizontal"), 0);
+        movement = new Vector2(Input.GetAxis("Horizontal"), -2);
         jump = Input.GetKeyDown(KeyCode.Space);
     }
     void FixedUpdate()
     {
         moveCharacter(movement);
-       
+        jumpCharacter(jump);
     }
     void moveCharacter(Vector2 direction)
     {
@@ -36,7 +36,7 @@ public class rbmovement : MonoBehaviour
     {
         if (jump)
         {
-            rb.AddForce(new Vector2 )
+            rb.AddForce(new Vector2(0, JumpForce * 100), ForceMode2D.Impulse);
         }
     }
     

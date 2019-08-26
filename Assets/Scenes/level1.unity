@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 223605801}
   - component: {fileID: 223605800}
   - component: {fileID: 223605799}
+  - component: {fileID: 223605802}
   - component: {fileID: 223605798}
   m_Layer: 0
   m_Name: man
@@ -254,7 +255,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 25
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -322,6 +323,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223605802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223605797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6b3324de14afb4a94104d6d2df1b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  movement: {x: 0, y: 0}
+  JumpForce: 25
 --- !u!1 &677810448
 GameObject:
   m_ObjectHideFlags: 0
