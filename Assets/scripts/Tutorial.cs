@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Assets.scripts;
 
-public class easyTutorial : GameplayPart
+public class Tutorial : GameplayPart
 {
     public GameObject[] sign1;
     public GameObject[] sign2;
@@ -26,11 +26,16 @@ public class easyTutorial : GameplayPart
             {sign4,  new[]{  KeyCode.E } },
             {sign5,  new[]{ KeyCode.LeftArrow, KeyCode.RightArrow} }
         };
-        SelectSign(null);
     }
-    private void Start()
+    
+    private void OnEnable()
     {
         SelectSign(allSigns.First());
+    }
+    
+    private void OnDisable()
+    {
+        SelectSign(null);
     }
 
     void Update()

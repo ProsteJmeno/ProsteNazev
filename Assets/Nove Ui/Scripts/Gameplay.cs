@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using Assets.scripts;
+using UnityEngine;
 
 namespace Assets.Nove_Ui.Scripts
 {
-    class Gameplay : MonoBehaviour
+    class Gameplay : GameplayPart
     {
         public Rigidbody2D cat;
         public float rotateForce;
