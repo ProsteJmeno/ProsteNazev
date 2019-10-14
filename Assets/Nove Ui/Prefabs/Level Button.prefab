@@ -93,11 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.81960785}
-<<<<<<< HEAD
-  m_EffectDistance: {x: 1, y: 1}
-=======
   m_EffectDistance: {x: 3, y: -3}
->>>>>>> ab725bc2c9968dd3c21b6fe65c33ab692af60853
   m_UseGraphicAlpha: 1
 --- !u!1 &5835526832535761445
 GameObject:
@@ -167,11 +163,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: 8bd99f7ed609e7b458155cea6c835f02, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 0e254bdadafdcc9488a85a2b420c0919, type: 3}
->>>>>>> ab725bc2c9968dd3c21b6fe65c33ab692af60853
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

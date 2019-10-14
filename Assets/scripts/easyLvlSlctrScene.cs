@@ -28,7 +28,7 @@ public class easyLvlSlctrScene : MonoBehaviour
                 if (!(maxLevel >= int.Parse(finalName)))
                 {
                     //Destroy(bttn);
-                    bttn.enabled = false;
+                    //bttn.enabled = false;
                 }
             }
         }
