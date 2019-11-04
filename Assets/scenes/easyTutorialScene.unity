@@ -203,7 +203,6 @@ GameObject:
   m_Component:
   - component: {fileID: 44748228}
   - component: {fileID: 44748227}
-  - component: {fileID: 44748226}
   - component: {fileID: 44748231}
   - component: {fileID: 44748230}
   - component: {fileID: 44748229}
@@ -215,14 +214,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &44748226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44748225}
-  m_Enabled: 1
 --- !u!20 &44748227
 Camera:
   m_ObjectHideFlags: 0
@@ -802,6 +793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deadScreen: {fileID: 7821485782377052767}
+  gameplay: {fileID: 44748232}
 --- !u!1 &347386287
 GameObject:
   m_ObjectHideFlags: 0

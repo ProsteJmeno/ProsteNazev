@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Nove_Ui.Scripts
 {
-    class Gameplay : GameplayPart
+    public class Gameplay : GameplayPart
     {
         public Rigidbody2D cat;
         public float rotateForce;
@@ -16,6 +16,11 @@ namespace Assets.Nove_Ui.Scripts
         private void Update()
         {
             cat.AddTorque(Input.GetAxis("Horizontal") * -rotateForce);
+        }
+
+        public void stopMoving()
+        {
+            cat.simulated = false;
         }
     }
 }

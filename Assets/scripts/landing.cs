@@ -7,7 +7,7 @@ public class landing : MonoBehaviour
     bool col;
 
     float enterTime;
-    float stayTime = 5;
+    float stayTime = 3;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
