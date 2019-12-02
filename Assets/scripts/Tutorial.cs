@@ -73,5 +73,6 @@ public class Tutorial : GameplayPart
         {
             o.SetActive(true);
         }
+        
     }
 }

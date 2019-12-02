@@ -6,7 +6,12 @@ using UnityEngine;
 public class badLanding : MonoBehaviour
 {
     public GameObject deadScreen;
-    public Gameplay gameplay;
+    public mediumGameplay mediumGameplay;
+    public bool dead;
+    private void Start()
+    {
+        dead = false;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "ground")
@@ -17,7 +22,7 @@ public class badLanding : MonoBehaviour
     public void catDied()
     {
         deadScreen.SetActive(true);
-        gameplay.stopMoving();
+        dead = true;
     }
 }
 

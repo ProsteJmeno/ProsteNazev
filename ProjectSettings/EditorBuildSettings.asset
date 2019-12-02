@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/scenes/menu.unity
     guid: 4b78f66e9b244744699d9fecab3ee5e8
   - enabled: 1
-    path: Assets/scenes/easy-level-selector-0-40.unity
-    guid: b3bd3e131e250504e89fbe9720fee792
+    path: Assets/scenes/easyTutorialScene.unity
+    guid: 82f7f95fcba91544891334572cce7d5d
+  - enabled: 1
+    path: Assets/scenes/mediumTutorialScene.unity
+    guid: 9fb173c5f73564c45bee94ca995436da
   m_configObjects: {}
