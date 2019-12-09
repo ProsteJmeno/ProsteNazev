@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Nove_Ui.Scripts
 {
-    public class mediumGameplay : GameplayPart
+    public class mediumPlay : GameplayPart
     {
         public Rigidbody2D cat;
         public float pushEffect;
@@ -13,14 +13,6 @@ namespace Assets.Nove_Ui.Scripts
             Time.timeScale = 1;
         }
 
-        void pushCat()
-        {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                Vector2 position = cat.transform.position;
-                cat.transform.position = new Vector2(cat.transform.position.x, cat.transform.position.y + pushEffect);
-            }
-        }
 
         public void stopMoving()
         {
@@ -29,9 +21,9 @@ namespace Assets.Nove_Ui.Scripts
 
         public void Update()
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space)) 
             {
-                Vector2 position = cat.transform.position;
+                Debug.Log("něco");
                 cat.transform.position = new Vector2(cat.transform.position.x, cat.transform.position.y + pushEffect);
             }
         }

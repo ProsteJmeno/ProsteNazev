@@ -6,7 +6,7 @@ using UnityEngine;
 public class badLanding : MonoBehaviour
 {
     public GameObject deadScreen;
-    public mediumGameplay mediumGameplay;
+    public Gameplay gameplay;
     public bool dead;
     private void Start()
     {
@@ -22,6 +22,7 @@ public class badLanding : MonoBehaviour
     public void catDied()
     {
         deadScreen.SetActive(true);
+        gameplay.stopMoving();
         dead = true;
     }
 }

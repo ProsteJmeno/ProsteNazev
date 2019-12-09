@@ -2410,6 +2410,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dead
       objectReference: {fileID: 0}
+    - target: {fileID: 7821485782377052767, guid: 1811048a0195e7c4a9c9025516216706,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6158939881889092649, guid: 1811048a0195e7c4a9c9025516216706,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2574,6 +2579,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4824323033693365858, guid: 1811048a0195e7c4a9c9025516216706,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 72.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305913686183693026, guid: 1811048a0195e7c4a9c9025516216706,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 445.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1811048a0195e7c4a9c9025516216706, type: 3}
