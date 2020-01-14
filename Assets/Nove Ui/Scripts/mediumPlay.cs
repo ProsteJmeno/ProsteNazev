@@ -8,10 +8,6 @@ namespace Assets.Nove_Ui.Scripts
         public Rigidbody2D cat;
         public float pushEffect;
 
-        private void Start()
-        {
-            Time.timeScale = 1;
-        }
 
 
         public void stopMoving()

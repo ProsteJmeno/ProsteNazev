@@ -8,10 +8,7 @@ namespace Assets.Nove_Ui.Scripts
         public Rigidbody2D cat;
         public float rotateForce;
 
-        private void Start()
-        {
-            Time.timeScale = 1;
-        }
+        
 
         private void Update()
         {
