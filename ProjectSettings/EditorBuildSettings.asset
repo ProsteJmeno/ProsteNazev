@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/easy-level-selector-0-40.unity
     guid: a07b19646dbb6fa4a9589b6208e0322a
+  - enabled: 1
+    path: Assets/scenes/medium-level-selector-0-40.unity
+    guid: 0ec4dca3827e8bf45bf0c278a598c021
   m_configObjects: {}

@@ -7,20 +7,17 @@ namespace Assets.scripts
     {
         public Rigidbody2D cat;
         public float randomRotation;
-        public float waitTime;
+        float randomTorque = 0;
+
 
         private void Start()
         {
-            float randomTorque = UnityEngine.Random.Range(-5000, 5000);
+            while(randomTorque > -500 && randomTorque < 500)
+            {
+                 randomTorque = UnityEngine.Random.Range(-5000, 5000);
+            }
             cat.AddTorque(randomTorque * randomRotation);
-            StartCoroutine(WaitForFinish());
         }
 
-        private IEnumerator WaitForFinish()
-        {
-            yield return new WaitForSeconds(waitTime);
-            Time.timeScale = 0;
-            Finished();
-        }
     }
 }

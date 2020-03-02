@@ -6,7 +6,7 @@ using UnityEngine;
 public class badLandingOnMedium : MonoBehaviour
 {
     public GameObject deadScreen;
-    public mediumGameplay gameplay;
+    public mediumPlay gameplay;
     public bool dead;
     private void Start()
     {

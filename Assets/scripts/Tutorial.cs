@@ -17,7 +17,6 @@ public class Tutorial : MonoBehaviour
     {
         var currentScene = allSigns[signNumber];
         var anyKeyDown = currentScene.continueKeys.Any(k => Input.GetKeyDown(k));
-
         if (anyKeyDown)
         {
             if (signNumber == allSigns.Length - 1)

@@ -7,6 +7,7 @@ namespace Assets.Nove_Ui.Scripts
     {
         public Rigidbody2D cat;
         public float rotateForce;
+        public float offset;
 
         
 
